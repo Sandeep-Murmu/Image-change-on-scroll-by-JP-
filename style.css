@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(180, 46%, 88%);
+}
+
+header {
+  display: flex;
+  padding: 4rem 8rem;
+  background-color: whitesmoke;
+  box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+}
+
+.brand {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+}
+
+.navlink {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: #2b2b2b;
+    text-transform: uppercase;
+}
+
+.container-main {
+    position: relative;
+}
+
+.image-container {
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+  width: 65rem;
+  padding: 1.5rem;
+  background-color: hsl(120, 62%, 90%);
+  border-radius: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.image-container.fixed {
+    position: fixed;
+}
+
+.item-image {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.item-text {
+  width: 45%;
+  margin-left: auto;
+  padding-top: 28rem;
+}
+
+.item-text:last-child {
+  margin-bottom: 32rem;
+}
+
+footer {
+    min-height: 30rem;
+    background-color: hsl(180, 97%, 13%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
